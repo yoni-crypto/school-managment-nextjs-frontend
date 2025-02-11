@@ -37,18 +37,18 @@ const SubjectForm = dynamic(() => import("./forms/SubjectForm"), {
   loading: () => <p>Loading...</p>,
 });
 
-// Define a union type for the possible data structures
-interface TeacherData {}
-interface StudentData {}
-interface AssignmentData {}
-interface AnnouncementData {}
-interface ClassData {}
-interface EventData {}
-interface ExamData {}
-interface LessonData {}
-interface ParentData {}
-interface ResultData {}
-interface SubjectData {}
+type TeacherData = object;
+type StudentData = object;
+type AssignmentData = object;
+type AnnouncementData = object;
+type ClassData = object;
+type EventData = object;
+type ExamData = object;
+type LessonData = object;
+type ParentData = object;
+type ResultData = object;
+type SubjectData = object;
+
 
 type FormData =
   | TeacherData
