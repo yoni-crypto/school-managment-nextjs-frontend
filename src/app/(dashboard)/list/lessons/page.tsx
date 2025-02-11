@@ -9,7 +9,7 @@ import React from 'react'
 type Lesson= {
     id:number;
     subject: string;
-    class:number;
+    class:string;
     teacher:string;
 }
 

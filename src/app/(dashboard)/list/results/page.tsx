@@ -2,18 +2,18 @@ import FormModel from '@/components/FormModel'
 import Pagination from '@/components/Pagination'
 import Table from '@/components/Table'
 import TableSearch from '@/components/tableSearch'
-import { resultsData, role} from '@/lib/data'
+import {  resultsData, role} from '@/lib/data'
 import Image from 'next/image'
 import React from 'react'
 
 type Result= {
     id:number;
     subject: string;
-    class:number;
+    class:string;
     teacher:string;
     student:string;
     date:string;
-    type:"exam"|"assignment";
+    type:string;
     score:number;
 }
 
