@@ -2,7 +2,6 @@
 
 import Announcments from "@/components/Announcments"
 import BigCalender from "@/components/BigCalender"
-import EventCalendar from "@/components/EventCalendar"
 
 const TeacherPage = () => {
   return (

@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image';
-import React, { PureComponent } from 'react';
-import { RadialBarChart, RadialBar, Legend, ResponsiveContainer } from 'recharts';
+import React from 'react';
+import { RadialBarChart, RadialBar, ResponsiveContainer } from 'recharts';
 
 const data = [
     {

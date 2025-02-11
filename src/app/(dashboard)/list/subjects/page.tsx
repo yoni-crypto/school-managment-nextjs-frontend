@@ -4,7 +4,6 @@ import Table from '@/components/Table'
 import TableSearch from '@/components/tableSearch'
 import {  role,subjectsData } from '@/lib/data'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 
 type Subject = {

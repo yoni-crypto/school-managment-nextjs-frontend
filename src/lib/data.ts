@@ -1,6 +1,6 @@
 // TEMPORARY DATA
 
-export let role = "admin";
+export const role = "admin";
 const today = new Date();
 
 const getDayOffset = (offset: number, hours: number, minutes: number) => {
