@@ -2,9 +2,8 @@ import FormModel from '@/components/FormModel'
 import Pagination from '@/components/Pagination'
 import Table from '@/components/Table'
 import TableSearch from '@/components/tableSearch'
-import { classesData, examsData, lessonsData, parentsData, role, studentsData, subjectsData, teachersData } from '@/lib/data'
+import { examsData, role } from '@/lib/data'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 
 type Exam= {
