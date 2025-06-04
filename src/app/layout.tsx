@@ -1,27 +1,6 @@
-// import type { Metadata } from "next";
-// import {Inter} from "next/font/google";
-// import "./global.css";
+import "./global.css";
 
-// const inter =Inter({subsets:["latin"]});
 
-// export const metadata:Metadata={
-//     title:"Yoni School Managment Dashboard",
-//     description:"Next.js School managment System",
-// };
-
-// export default function RootLayout({
-//     children,
-// }:Readonly<{
-//     children:React.ReactNode;
-// }>){
-//     return(
-//         <html lang="en">
-//             <body className={inter.className}>
-//                 test{children}
-//             </body>
-//         </html>
-//     )
-// }
 import Menu from "@/components/Menu"
 import Navbar from "@/components/Navbar"
 import Image from "next/image"
